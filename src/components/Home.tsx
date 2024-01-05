@@ -48,7 +48,7 @@ const Home = ({ navigation }: any) => {
         </View>
       </ScrollView>
     </View>
-    // <Button title='ApiData' onPress={()=> navigation.navigate("SaveApiData")}></Button> */}
+
     //<Button title='Segment' onPress={()=> navigation.navigate("Main")}></Button>
   )
 }

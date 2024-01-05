@@ -37,7 +37,6 @@ const Registration = ({ navigation }: any) => {
             setEmailerror(false)
         }
         if (password === "" || password.length < 6) {
-            // console.warn("set it")
             setPassworderror(true)
         } else {
             setPassworderror(false)
